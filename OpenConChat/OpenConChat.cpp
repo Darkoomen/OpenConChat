@@ -61,7 +61,7 @@ void Chat::showLoginMenu()
 			std::cout << "Goodbye ";
 			break;
 		default:
-			std::cout << "1 or 2: " << std::endl;
+			std::cout << "Select 1 or 2 (0 - exit): " << std::endl;
 		}
 	} while (!_currentUser && _isChatWork);
 }
